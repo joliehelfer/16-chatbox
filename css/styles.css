@@ -1,10 +1,23 @@
-body {
-  max-width: 320px;
-  margin: auto;
+html, body {
+  margin: 0;
   background: #281313;
 }
 
-img {
-  display: block;
-  max-width: 100%;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  background: #171717;
+  padding: 0 25px;
+  position: sticky;
+  top: 0;
+}
+
+.header-red{
+  color: #C43939;
+}
+
+.header-white{
+  color: white;
 }
