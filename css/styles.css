@@ -5,13 +5,15 @@ html, body {
 
 header {
   display: flex;
+  font-family: 'Roboto', sans-serif;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
   background: #171717;
-  padding: 0 25px;
+  padding: 0 20px;
   position: sticky;
   top: 0;
+  font-size: 8px;
 }
 
 .header-red{
@@ -39,7 +41,7 @@ header {
 
 .message-content {
   border-radius: 15px 15px 15px 0;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   background: #C43939;
   margin: 0 0 5px 0;
   padding: 10px 15px;
@@ -68,4 +70,13 @@ header {
 .message-box-leonardo .message-content{
   background: #171717;
   border-radius:  30px 30px 30px 0;
+}
+
+footer {
+  background: #171717;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  position: sticky;
+  bottom: 0;
 }
